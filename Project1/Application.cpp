@@ -28,6 +28,8 @@ int main() {
 		return -3;
 	}
 
+	std::cout << glGetString(GL_VERSION) << std::endl;
+
 	while (!glfwWindowShouldClose(window)) {
 		glClear(GL_COLOR_BUFFER_BIT);
 
